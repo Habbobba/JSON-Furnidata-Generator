@@ -27,6 +27,9 @@ This script generates a JSON file containing entries for furniture items based o
 
 **Note:** Ensure that the necessary files are present in the "furni" directory and the desired MIME type is selected correctly.
 
+## Reminder
+This script lacks the ability to differentiate between furniture placed on the floor and furniture placed on walls. Consequently, when generating the furnidata entries, it will assume that all furniture belongs to the floor category due to its prevalence. As a result, the generated furnidata.json file will not include the section for wall furniture. It is recommended to either copy these entries to a separate furnidata file that follows the appropriate furnidata structure with a wall section, or manually incorporate the wall section into the generated furnidata.
+
 ## Credits
 
 This script was created by Gizmo.
