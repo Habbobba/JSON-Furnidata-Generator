@@ -1,4 +1,4 @@
-# Furnidata Generator
+# JSON Furnidata Generator
 
 This script generates a JSON file containing entries for furniture items based on SWF or Nitro files in the specified directory. The generated JSON file follows a specific structure and can be used for various purposes in a project.
 
